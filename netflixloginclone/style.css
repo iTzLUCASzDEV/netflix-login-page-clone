@@ -1,0 +1,186 @@
+body{
+    width: 110vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-image: url(./images/BR-pt-20220214-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+}
+.escurecerfundo{
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.netflix-logo{
+    width: 13.7em;
+    margin-top: -1.3em;
+    margin-left: 1.12em;
+}
+.section{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 28.1em;
+    height: 41em;
+    margin-top: -1.5em;
+    border-radius: 0.5%;
+    background-color: rgba(0, 0, 0, 0.76);
+}
+.entrarp{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.99em;
+    font-weight: bold;
+}
+.form{
+    padding-left: 4.24em;
+    padding-top: 1.74em;
+}
+.loginform{}
+::placeholder{
+    display: flex;
+    font-size: 1rem;
+    color: rgb(133, 133, 133);
+}
+.inputtext, .inputpassword{
+    padding-top: 0.3em;
+    padding-left: 1.5em;
+    background-color: rgb(50, 50, 50);
+    border-radius: 0.3em;
+    width: 21.9em;
+    height: 3.4em;
+    border: none;
+    outline: none;
+    margin-top: -0.3em;
+}
+.inputpassword{
+    margin-top: 1.2em;
+    height: 3.35em;
+}
+.inputbutton{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: red;
+    color: white;
+    border-radius: 0.3em;
+    width: 19.6em;
+    height: 3.05em;
+    border: none;
+    outline: none;
+    margin-top: 2.5em;
+}
+.inputbutton:hover{
+    cursor: pointer;
+}
+.inputcheckboxp{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: grey;
+}
+.inputcheckboxp:hover{
+    cursor: default;
+}
+.inputcheckbox{
+    border: none;
+    outline: none;
+    width: 1.35em;
+    height: 1.35em;
+    margin-left: -0.05em;
+    margin-top: 0.05em;
+    background-color: grey;
+}
+.precisaajudap{
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(158, 158, 158);
+    font-size: 0.8rem;
+    margin-top: -2.4em;
+    margin-right: 5.4em;
+}
+.precisaajudap:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.facebookp{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    color: grey;
+    margin-top: 4.6em;
+}
+.facebooklogo{
+    padding-right: 0.9em;
+    width: 1.5em;
+    height: 1.6em;
+}
+.novoporaquip{
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+.assineagorap{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+.assineagorap:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.recaptchap{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    width: 80%;
+    color: grey;
+}
+.saibamaisa{
+    text-decoration: none;
+    color: #0071eb;
+}
+.saibamaisa:hover{
+    text-decoration: underline;
+}
+.footer{
+    margin-top: 5.5em;
+    padding-left: 16.5%;
+    padding-top: 1.35em;
+    padding-bottom: 4em;
+    background-color: rgba(0, 0, 0, 0.76);
+    width: 110vw;
+    height: auto;
+}
+.footerp{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: grey;
+}
+.duvidasp{}
+.footera{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    color: grey;
+}
+.footera1{
+    font-size: 1rem;
+}
+.footera:hover{
+    text-decoration: underline;
+}
+.footeralinks1{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.footeralinks2{
+    width: 25.4%;
+    display: flex;
+    justify-content: space-between;
+}
