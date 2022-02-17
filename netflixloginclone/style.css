@@ -1,12 +1,17 @@
-body{
-    width: 110vw;
-    height: 100vh;
+body, html{
+    width: 100%;
+    height: 100%;
     overflow-x: hidden;
-    background-image: url(./images/BR-pt-20220214-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    border: 0;
+    margin: 0;
+}
+.fundoimagem{
+    min-width: 135%;
+    min-height: 135%;
+    border: 0;
+    position: absolute;
 }
 .escurecerfundo{
-    margin-top: -0.5em;
-    margin-left: -0.5em;
     width: 100%;
     height: auto;
     position: absolute;
@@ -147,11 +152,15 @@ body{
 .saibamaisa:hover{
     text-decoration: underline;
 }
+.break{
+    flex-basis: 100%;
+    height: -3em;
+}
 .footer{
     margin-top: 5.5em;
     padding-left: 16.5%;
     padding-top: 1.35em;
-    padding-bottom: 4em;
+    padding-bottom: 5.15em;
     background-color: rgba(0, 0, 0, 0.76);
     width: 110vw;
     height: auto;
@@ -167,20 +176,34 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 0.8rem;
     color: grey;
+    width: 17em;
 }
 .footera1{
     font-size: 1rem;
+}
+.footera12{
+    width: 9.5em;
+    height: 0.25em;
 }
 .footera:hover{
     text-decoration: underline;
 }
 .footeralinks1{
-    width: 50%;
+    width: 56%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
-.footeralinks2{
-    width: 25.4%;
-    display: flex;
-    justify-content: space-between;
+.selectinput{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.799rem;
+    border-radius: 1px;
+    margin-top: 2.2em;
+    padding-left: 3.1em;
+    border: none;
+    outline: 1px solid #333;
+    background-color: black;
+    color: grey;
+    width: 10.2em;
+    height: 3.5em;
 }
